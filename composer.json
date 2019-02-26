@@ -1,5 +1,5 @@
 {
-    "name": "trash-panda/progress-bar-log",
+    "name": "charlmert/progress-bar-log",
     "description": "Component to display a progress bar and last X logs at the same time",
     "keywords": ["cli", "console", "progress", "log"],
     "homepage": "https://github.com/AydinHassan/progress-bar-log",
