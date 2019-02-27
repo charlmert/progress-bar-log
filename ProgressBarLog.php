@@ -115,10 +115,10 @@ class ProgressBarLog
         $this->getOutput()->writeln('');
     }
 
-    public function advance()
+    public function advance($step = 1)
     {
         $this->moveCursorToTop();
-        $this->getProgressBar()->advance();
+        $this->getProgressBar()->advance($step);
         $this->moveToLastLine();
     }
 
